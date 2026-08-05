@@ -1,0 +1,24 @@
+# # If Statements
+
+# # Example 1
+text = "Python"
+if text == "Python":
+    #prints true or false
+    #checks if th condition is true to print true
+    print("Hello World")
+else:
+    print("Bye World")
+
+
+
+# # Example 2
+
+if 10 == "10":
+    print("a")
+if "bag" > "apple" and "bag" > "cat":
+    print("b")
+else:
+    print("c")
+
+
+# #
