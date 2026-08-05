@@ -1,0 +1,16 @@
+# # Assigning Functions
+
+# Example...1
+def marks(name, *subject):
+    total = 0
+
+    for mark in subject:
+        total += mark
+
+    average = total / len(subject)
+    print("Average marks of", name, "is", average)
+
+
+# #Function calls.
+marks("Bob", 20, 40)
+marks("John", 25, 45, 50)
