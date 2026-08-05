@@ -1,0 +1,15 @@
+# # Logical Statements
+# # and, or, not
+
+
+# # Example 1
+condition1 = 12 < 5
+condition2 = 33 > 2
+print(condition1 or condition2)
+print(not(condition1 and condition2))
+
+# # Example 2 (not)
+x = 5
+print(not (x > 10))   # True because x > 10 is False
+# Equivalent:
+print(x <= 10)        # True
