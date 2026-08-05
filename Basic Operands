@@ -1,0 +1,25 @@
+# # Input Function
+# Allows manual input on Py
+
+name = input("Enter your full name: ")
+print("Welcome back", name)
+
+# # Example 1
+val1 = input("Enter a number: ")
+val2 = input("Enter another number: ")
+
+print(val1 + val2)
+
+print("Congratulations!, Your code ran successfully")
+
+
+# # Example 2
+name = input("Enter your name: ")
+if name == "":
+print("You need a name")
+else:
+    print(f"Hello {name}, welcome to my first python project")
+
+# # Example 3
+name = input("Enter your Fullname: ")
+phone_number = input("Enter your phone number: ")
