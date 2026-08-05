@@ -1,0 +1,24 @@
+# Password Check
+password = ""
+
+while password != "Bobthelord":
+    password = input("Enter password: ")
+
+print("Access Granted!\n")
+
+# Point of Sale (POS) Terminal
+balance = 500  # Starting balance
+
+while balance > 0:
+    print(f"\nCurrent balance: ₦{balance}")
+
+    withdrawal = int(input("Enter withdrawal amount: ₦"))
+
+    if withdrawal > balance:
+        print("Insufficient funds!")
+    else:
+        balance -= withdrawal
+        print(f"You withdrew ₦{withdrawal}")
+        print(f"Remaining balance: ₦{balance}")
+
+print("\nAccount empty! No more withdrawals.")
