@@ -1,0 +1,10 @@
+# # Student Attendance Module
+student = ["John", "Mary", "Ali", "Reuben",  "Dave"]
+for student in student: print(f"{student} is present")
+student = {"name": "Kayode", "score": 50}, {"name": "Joshua", "score": 12}, {"name": "Chidera", "score": 30}, {"name": "Spongebob", "score": 80}
+
+# # Mark attendance:
+
+attendance = 14
+for student in student: overall_Exam_score = student["score"] + attendance
+print(f"{student['name']}, has an overall exam score: {overall_Exam_score:.4f}")
