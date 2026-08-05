@@ -1,0 +1,11 @@
+# Arithmetic operations in python
+# +, -, *, %, /
+
+Moses = 500
+Henry = 200
+
+print(Moses + Henry) #Addition
+print(Moses - Henry) #Subtraction
+print(Moses * Henry) #Multiplication
+print(Moses / Henry) #Division
+print(Moses % Henry) #Modulus is a remainder from an arithmetic division
