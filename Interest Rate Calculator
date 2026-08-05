@@ -1,0 +1,23 @@
+# List of customer accounts with balances
+accounts = [
+    {"name": "Adeoluwa", "balance": 500000},
+    {"name": "Tola", "balance": 150000},
+    {"name": "Chioma", "balance": 300000},
+    {"name": "Emeka", "balance": 80000}
+]
+
+# Interest rate (5%)
+interest_rate = 0.05
+
+print("Monthly Interest Processing:")
+print("----------------------------")
+
+# Loop through each account to apply interest
+for account in accounts:
+    interest = account["balance"] * interest_rate
+    account["balance"] += interest
+
+    print(
+        f"{account['name']} earned ₦{interest:.2f} in interest. "
+        f"New balance: ₦{account['balance']:.2f}"
+    )
