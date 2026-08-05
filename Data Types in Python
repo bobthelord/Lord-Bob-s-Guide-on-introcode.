@@ -1,0 +1,20 @@
+#Intro Code
+
+# # Example 1
+Product_name = "Vaseline" #(string)
+Price = 69.90 #(float)
+Quantity = 5 #(integer)
+In_Stock = True #(boolean)
+
+print(type(Product_name))
+print(type(Price))
+print(type(Quantity))
+print(type(In_Stock))
+
+# # Example 2
+Moses = 90.0
+Henry = 50
+new_friend = Henry / 2
+print( 'Henry', new_friend)
+print(new_friend)
+print(type(Moses))
