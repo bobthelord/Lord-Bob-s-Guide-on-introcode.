@@ -1,5 +1,8 @@
 # # Getting data type for variables
 
+
+# # Example 1
+
 name = 'Bob'
 Age = '50'
 Height = 50
