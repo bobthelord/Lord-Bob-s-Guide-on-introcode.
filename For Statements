@@ -1,0 +1,11 @@
+# # Looping in FOR Statements
+
+expenses = []
+
+for day in range(7):  # Loop runs 7 times
+    amount = float(input(f"Enter amount of expense for day {day + 1}: "))
+    expenses.append(amount)
+
+print("\nExpenses List:", expenses)
+print("Total Spent:", sum(expenses))
+print("Average Daily Expense:", sum(expenses) / len(expenses))
