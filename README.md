@@ -1,7 +1,4 @@
 # Lord-Bob-s-Guide-on-introcode.
-# Lambda Functions
-
-# QUESTION 16
 # Sorting using lambda
 
 
