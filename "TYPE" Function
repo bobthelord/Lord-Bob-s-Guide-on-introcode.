@@ -1,0 +1,23 @@
+# # Getting data type for variables
+
+name = 'Bob'
+Age = '50'
+Height = 50
+Weight = 56.09
+Male = False
+
+print(name)
+print(Age)
+print(Height)
+print(Weight)
+
+
+
+print(type(name))
+print(type(Age))
+print(type(Height))
+print(type(name))
+print(type(Age))
+print(type(Height))
+print(type(Weight))
+print(type(Male))
