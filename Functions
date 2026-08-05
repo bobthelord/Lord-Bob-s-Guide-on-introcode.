@@ -37,4 +37,28 @@ def greet_all(greeting, *names):
 greet_all("Greetings", "Aisha", "Bola", "Emeka")
 
 
+# # example 4
+
+def student_info(name, **details):
+    print("Name:", name)
+
+    print("Other Details:")
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+
+# Function call (Block form)
+student_info(
+    "Bob",
+    Age=20,
+    Course="Computer Science",
+    Level="200",
+    State="Lagos"
+)
+
+
+# Call the function (Inline form)
+student_info("Ada", age=16, school="GSS Abuja", hobby="Reading")
+student_info("Tunde", class_="SS2", subject="Math")
+student_info("Chioma")
 
