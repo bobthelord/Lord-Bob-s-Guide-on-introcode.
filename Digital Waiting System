@@ -1,0 +1,36 @@
+# # Digital Waiting System (Selective system)
+
+
+def order_food(menu, choice):
+    if choice in menu:
+        print(f"You ordered {choice}. Please wait while it is prepared.")
+    else:
+        print("Sorry, that item is not on the menu.")
+
+# --- Example Usage ---
+menu = ["Rice", "Beans", "Bread", "Soup"]
+
+order_food(menu, "Rice") # Valid order
+order_food(menu, "Pizza") # Invalid order
+
+
+def order_food(menu, choice):
+    if choice in menu:
+        print(f"You ordered {choice}. Please wait while it is prepared.")
+    else:
+        print("Sorry, that item is not on the menu.")
+
+
+# # Digital Waiting System (Input system)
+def order_food(menu, choice):
+    if choice in menu:
+        print(f"You ordered {choice}. Please wait while it is prepared.")
+    else:
+        print("Sorry, that item is not on the menu.")
+
+menu = ["Rice", "Beans", "Bread", "Soup"]
+choice = input("Please enter your choice: ")
+order_food(menu, choice)
+
+
+
