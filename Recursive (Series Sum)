@@ -1,0 +1,14 @@
+# #Recursive
+def SeriesSum(a,n):
+    if n < 1:
+        return 0
+    else:
+        return pow(a,n) + SeriesSum(a,n-1)
+        return pow(a, n)
+        # note!!: pow(a, n) computes a to the power of n
+print("Sum of the series is :", SeriesSum(4,6))
+print("Sum of the series is :", SeriesSum(4,5))
+print("Sum of the series is :", SeriesSum(4,4))
+print("Sum of the series is :", SeriesSum(4,3))
+print("Sum of the series is :", SeriesSum(4,2))
+print("Sum of the series is :", SeriesSum(4,1))
