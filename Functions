@@ -27,4 +27,14 @@ def Mymarks (name, **subject):
 Mymarks("Catherine", English = 52, Maths = 60, Science = 45)
 Mymarks("Josephine", English = 62, Maths = 70, Science = 55)
 
+# # Example 3
+def greet_all(greeting, *names):
+    for name in names:
+        print(f"{greeting}, {name}!")
+
+
+# Function call
+greet_all("Greetings", "Aisha", "Bola", "Emeka")
+
+
 
