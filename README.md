@@ -1,4 +1,3 @@
-# Lord-Bob-s-Guide-on-introcode.
 # Sorting using lambda
 
 
@@ -31,7 +30,7 @@ students.sort(key=lambda x:x[1], reverse=True)
 print(students)
 
 
-    # Print only student in alphabetical order
+    # Print only students in alphabetical order
 
 students = [
 
