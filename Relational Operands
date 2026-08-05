@@ -1,0 +1,12 @@
+# # Relational
+# # (<, <=, >, >=, ==, !=)
+
+print(3 > 2) # greater than
+print(30 < 40) # less than
+print(1<= 5) # less than or equals to
+print(13 >= 2) # greater than or equals to
+print(3 == 6) # Equality
+print(3 != 2) # Not equal
+
+print(True * False)
+
