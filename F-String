@@ -1,0 +1,15 @@
+# # f-string (formatted string literal). It lets you insert variables or expressions directly into a string using {}.
+
+name = "Bob Marshall"
+state = ("Zamfara")
+amount = 5000
+details = "OPay"
+
+print(f"My name is {name}, I came all the way from {state} "
+      f" to lay low and start a new life in Lagoon here after being offered to be paid "
+      f"{amount} immediately to my {details}")
+
+print("My name is", name," I came all the way from", state, "state")
+print("My name is", name)
+print("I am from", state)
+print("I had the privilege to be bribed with", amount, "and could have been paid directly to my", details)
