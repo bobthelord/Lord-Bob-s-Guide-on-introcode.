@@ -1,8 +1,0 @@
-# # General Print Function
-
-course = "python"
-print(course.capitalize())
-print(course.upper())
-print(course.lower())
-print(course.count('t'))
-print(course.find('t'))

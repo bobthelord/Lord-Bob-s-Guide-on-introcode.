@@ -1,0 +1,26 @@
+# # General Print Function
+
+course = "python"
+name = "Bob"
+
+# String methods using the course variable
+print("Course:", course)
+print("Capitalize:", course.capitalize())
+print("Uppercase:", course.upper())
+print("Lowercase:", course.lower())
+print("Count of 't':", course.count('t'))
+print("Position of 't':", course.find('t'))
+print("Length:", len(course))
+
+print()  # Blank line
+
+# String methods using the name variable
+print("Name:", name)
+print("Length:", len(name))
+print("First occurrence of 'o':", name.find("o"))
+print("Last occurrence of 'o':", name.rfind("o"))
+print("Capitalized:", name.capitalize())
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Is Digit?:", name.isdigit())
+
